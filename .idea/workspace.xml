@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2b53d216-9d41-4a16-9e18-76267b82b1a4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Driver/ChromeDriver/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Driver/EdgeDriver/msedgedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Driver/GeckoDriver/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ebay/EbayHomepage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ebay/InventoryPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Progressive/CareersPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Progressive/ToolsAndCalculatorPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reporting/ApplicationLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reporting/ExtentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reporting/ExtentTestManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reporting/TestLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utility/ExcelReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utility/ReadExcelFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ebay/TestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ebay/TestSearchBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Progressive/TestCareers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/DeltaTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/EbayTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/ProgressiveTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestData.xlsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NxhRqKpcxzVuUGxO0WXCm7TQmS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Sharmin Zaman/IdeaProjects/Team_A_TDD_Framwork_Final/src/main/java/utility",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sharmin Zaman\IdeaProjects\Team_A_TDD_Framwork_Final\src\main\java\utility" />
+      <recent name="C:\Users\Sharmin Zaman\IdeaProjects\Team_A_TDD_Framwork_Final\src\main\java\Progressive" />
+      <recent name="C:\Users\Sharmin Zaman\IdeaProjects\Team_A_TDD_Framwork_Final\src\main\java\Ebay" />
+      <recent name="C:\Users\Sharmin Zaman\IdeaProjects\Team_A_TDD_Framwork_Final\src\test\java\Ebay" />
+      <recent name="C:\Users\Sharmin Zaman\IdeaProjects\Team_A_TDD_Framwork_Final\src\test" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utility" />
+      <recent name="Progressive" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Team_A_TDD_Framework_Final" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Team_A_TDD_Framework_Final" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Sharmin Zaman/IdeaProjects/Team_A_TDD_Framwork_Final/src/test/resources/ProgressiveTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Team_A_TDD_Framework_Final" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/ProgressiveTest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/Sharmin Zaman/IdeaProjects/Team_A_TDD_Framwork_Final/src/test/resources/ProgressiveTest.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b53d216-9d41-4a16-9e18-76267b82b1a4" name="Changes" comment="" />
+      <created>1680611637236</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680611637236</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
