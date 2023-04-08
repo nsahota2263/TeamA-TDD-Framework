@@ -7,20 +7,23 @@
     <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <!--<parameter name="cloudEnvName" value="saucelab"/>-->
-    <parameter name="os" value="windows"/>
-    <!--    <parameter name="os" value="OS X"/>-->
-    <parameter name="os_version" value="11"/>
-    <!--        <parameter name="os_version" value="Sierra"/>-->
-    <parameter name="browserName" value="chrome"/>
+    <!--   <parameter name="os" value="windows"/>-->
+   <parameter name="os" value="OS X"/>
+    <!--  <parameter name="os_version" value="11"/>-->
+       <parameter name="os_version" value="Ventura"/>
+    <parameter name="browserName" value="firefox"/>
     <parameter name="browserVersion" value="111"/>
     <parameter name="url" value="https://www.ebay.com/"/>
 
     <test name="HomePage">
-        <classes>
-            <!--<class name="Ebay.TestSearchBar"></class>
-            <class name="Ebay.TestFilter"></class>
+         <classes>
+            <class name="Ebay.HomeTest"></class>
+            <class name="Ebay.MensFashionWatchTest"></class>
+            <class name="Ebay.GetAuthenticationTest"></class>
+            <class name="Ebay.EbayUploadSellTest"></class>
+            <class name="Ebay.ScrollUpArrowTest"></class>
+            <class name="Ebay.ChangeCountryTEST"></class>
+            <class name="Ebay.StoreOpenTest"></class>
         </classes>
-
     </test>
-
 </suite>

@@ -5,12 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b53d216-9d41-4a16-9e18-76267b82b1a4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Driver/MacDriver/MyGECKODRIVE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Driver/MacDriver/chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ebay/AuthenticateBag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ebay/EbayHomepage2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ebay/EbayHomepage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ebay/InventoryPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/CommonAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reporting/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reporting/ExtentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ebay/TestFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ebay/TestSearchBar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/EbayTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/EbayTest.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,31 +44,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Sharmin Zaman/IdeaProjects/Team_A_TDD_Framwork_Final/src/main/java/utility",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/nicholassahota/Desktop/GroupA-main/TeamA-TDD-Framework/src/test/java/Ebay&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/Ebay" />
+      <recent name="$PROJECT_DIR$/src/main/java/utility" />
+      <recent name="$PROJECT_DIR$/src/main/java/Ebay" />
+      <recent name="$PROJECT_DIR$/Driver/MacDriver" />
       <recent name="C:\Users\Sharmin Zaman\IdeaProjects\Team_A_TDD_Framwork_Final\src\main\java\utility" />
-      <recent name="C:\Users\Sharmin Zaman\IdeaProjects\Team_A_TDD_Framwork_Final\src\main\java\Progressive" />
-      <recent name="C:\Users\Sharmin Zaman\IdeaProjects\Team_A_TDD_Framwork_Final\src\main\java\Ebay" />
-      <recent name="C:\Users\Sharmin Zaman\IdeaProjects\Team_A_TDD_Framwork_Final\src\test\java\Ebay" />
-      <recent name="C:\Users\Sharmin Zaman\IdeaProjects\Team_A_TDD_Framwork_Final\src\test" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Ebay" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Ebay.NicholasPages" />
       <recent name="utility" />
       <recent name="Progressive" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG./Users/nicholassahota/Desktop/GroupA-main/TeamA-TDD-Framework/src/test/resources/EbayTest.xml">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Team_A_TDD_Framework_Final" />
       <method v="2">
@@ -62,9 +86,79 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/Sharmin Zaman/IdeaProjects/Team_A_TDD_Framwork_Final/src/test/resources/ProgressiveTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Team_A_TDD_Framework_Final" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/ProgressiveTest.xml" />
+    <configuration name="HomeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TeamA-TDD-Framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ebay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Ebay.NicholasEbayTester" />
+      <option name="MAIN_CLASS_NAME" value="Ebay.HomeTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScrolUprrowTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TeamA-TDD-Framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ebay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Ebay.NicholasEbayTester" />
+      <option name="MAIN_CLASS_NAME" value="Ebay.NicholasEbayTester.ScrolUprrowTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScrolUprrowTest.SCROLL_UP_THE_ARROW" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TeamA-TDD-Framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ebay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Ebay.NicholasEbayTester" />
+      <option name="MAIN_CLASS_NAME" value="Ebay.NicholasEbayTester.ScrolUprrowTest" />
+      <option name="METHOD_NAME" value="SCROLL_UP_THE_ARROW" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScrolUprrowTest.country_change_test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TeamA-TDD-Framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ebay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Ebay.NicholasEbayTester" />
+      <option name="MAIN_CLASS_NAME" value="Ebay.NicholasEbayTester.ScrolUprrowTest" />
+      <option name="METHOD_NAME" value="country_change_test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/nicholassahota/Desktop/GroupA-main/TeamA-TDD-Framework/src/test/resources/EbayTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TeamA-TDD-Framework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/EbayTest.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -74,7 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/Sharmin Zaman/IdeaProjects/Team_A_TDD_Framwork_Final/src/test/resources/ProgressiveTest.xml" />
+        <item itemvalue="TestNG./Users/nicholassahota/Desktop/GroupA-main/TeamA-TDD-Framework/src/test/resources/EbayTest.xml" />
+        <item itemvalue="TestNG.HomeTest" />
+        <item itemvalue="TestNG.ScrolUprrowTest" />
+        <item itemvalue="TestNG.ScrolUprrowTest.SCROLL_UP_THE_ARROW" />
+        <item itemvalue="TestNG.ScrolUprrowTest.country_change_test" />
       </list>
     </recent_temporary>
   </component>
@@ -99,5 +197,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/base/CommonAPI.java</url>
+          <line>460</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

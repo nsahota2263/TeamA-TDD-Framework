@@ -12,6 +12,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -100,8 +101,8 @@ public class CommonAPI {
 
     //Browser SetUp
     public static WebDriver driver = null;
-    public String browserstack_username = "";
-    public String browserstack_accesskey = "";
+    public String browserstack_username = "nicholassahota_gv49nl";
+    public String browserstack_accesskey = "qnWwYivPx4A9CSc3xyPF";
     public String saucelabs_username = "monsurahmed1";
     public String saucelabs_accesskey = "48bd964a-506f-4ad1-a5f5-f37e060bbea5";
 
@@ -133,7 +134,7 @@ public class CommonAPI {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--remote-allow-origins=*");
             if (OS.equalsIgnoreCase("OS X")) {
-                System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/mac/chromedriver");
+                System.setProperty("webdriver.chrome.driver", "Driver/MacDriver/chromedriver");
             } else if (OS.equalsIgnoreCase("Windows")) {
                 System.setProperty("webdriver.chrome.driver", "driver/ChromeDriver/chromedriver.exe");
             }
@@ -143,14 +144,14 @@ public class CommonAPI {
             options.addArguments("--disable-notifications");
             options.addArguments("--remote-allow-origins=*");
             if (OS.equalsIgnoreCase("OS X")) {
-                System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/mac/chromedriver");
+                System.setProperty("webdriver.chrome.driver", "Driver/MacDriver/chromedriver");
             } else if (OS.equalsIgnoreCase("Windows")) {
                 System.setProperty("webdriver.chrome.driver", "driver/ChromeDriver/chromedriver.exe");
             }
             driver = new ChromeDriver(options);
         } else if (browserName.equalsIgnoreCase("firefox")) {
             if (OS.equalsIgnoreCase("OS X")) {
-                System.setProperty("webdriver.gecko.driver", "../Generic/BrowserDriver/mac/geckodriver");
+                System.setProperty("webdriver.gecko.driver", "Driver/MacDriver/MyGECKODRIVE");
             } else if (OS.equalsIgnoreCase("Windows")) {
                 System.setProperty("webdriver.gecko.driver", "driver/GeckoDriver/geckodriver.exe");
             }
@@ -159,6 +160,9 @@ public class CommonAPI {
         } else if (browserName.equalsIgnoreCase("ie")) {
             System.setProperty("webdriver.ie.driver", "../Generic/BrowserDriver/windows/IEDriverServer.exe");
             driver = new InternetExplorerDriver();
+            driver = new SafariDriver();
+        } else if (browserName.equalsIgnoreCase("safari")) {
+            driver = new SafariDriver();
         }
         return driver;
     }
@@ -284,7 +288,7 @@ public class CommonAPI {
         }
     }
 
-    /** Scrolling */
+    /** wailing */
     public static void scrollUpDownByHeight() {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
