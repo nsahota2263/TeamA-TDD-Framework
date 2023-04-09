@@ -12,6 +12,6 @@ public class ScrollUpArrowTest extends CommonAPI {
             getUpArrow();
             scrollUpArrow.UPARROW();
             String actual = scrollUpArrow.verification();
-            String expeected = "ebay";
+            String expected = "ebay";
         }
     }

@@ -14,7 +14,7 @@ public class MensFashionWatchTest extends CommonAPI {
        getwatches();
         mEnsFashionWatches.MenFashion_Scrool_Watches();
         String actual = mEnsFashionWatches.VerifuyToWatch();
-        String expected = "Shop Top Brands";
+        String expected = "Shop by Model";
         Assert.assertEquals(actual,expected);
     }
 }

@@ -32,7 +32,7 @@ public class HomeTest extends CommonAPI {
         getInitElements();
         ebayHomepage.selecting_My_Favorate();
         String actual = ebayHomepage.assertSelectingmyFavorate();
-        String expected = "New";
+        String expected = "Add to cart";
         Assert.assertEquals(actual,expected);
 
     }

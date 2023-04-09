@@ -31,9 +31,13 @@ public class EbayHomepage2 extends CommonAPI {
     public String VerifyAlooyewheelsDiameter(){return resultedcount.getText();}
     public String VerifyThatItISClickble(){return verify.getText();}
     public void NextTab(){handleNewTab(driver);}
-    public String assertSelectingmyFavorate(){return verify3.getText();}
+    public String assertSelectingmyFavorate(){return added.getText();}
     public String assertaddedtoCart(){return verify4.getText();}
+
+
     // This is a test case for searching a product from the search bar of Ebay homepage and filtering it.
+
+
     public void checkOutMYResult() {
         submitForSearchResult();
         clickthediameter();

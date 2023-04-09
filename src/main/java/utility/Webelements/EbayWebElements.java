@@ -12,7 +12,8 @@ public class EbayWebElements {
     public static final String checkingtherresult = "//span[normalize-space()='Alloy Wheels']";
     public static final String hoveroverFashion = "/html[1]/body[1]/div[6]/div[1]/ul[1]/li[7]/a[1]";
     public static final String watches = "/html[1]/body[1]/div[4]/div[3]/div[1]/div[1]/div[1]/div[1]/section[2]/ul[1]/li[1]/a[1]";
-    public static final String Verifywatches = "//*[@id=\"s0-27_1-9-0-1[1]-0-2-0-title\"]";
+    public static final String Verifywatches = "//*[@id=\"s0-27_1-9-0-1[0]-0-0-3-0-title\"]";
+    public static final String rolex = "//*[@id=\"s0-16-12-0-1[0]-0-0-0\"]/ul/li[1]/a";
     public static final String LVBagSelect = "//div[@id='srp-river-results']//li[1]//div[1]//div[2]//a[1]//div[1]//span[1]";
     public static final String Authonticatebag = "//div[@class='vim x-item-title']//span[1]";
     public static final String SellButon = "/html[1]/body[1]/header[1]/div[1]/ul[2]/li[1]/a[1]";

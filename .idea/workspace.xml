@@ -5,20 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b53d216-9d41-4a16-9e18-76267b82b1a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/MacDriver/MyGECKODRIVE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/MacDriver/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ebay/AuthenticateBag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ebay/EbayHomepage2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Ebay/EbayHomepage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Ebay/InventoryPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reporting/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reporting/ExtentManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Ebay/TestFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Ebay/TestSearchBar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/EbayTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/EbayTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ebay/AuthenticateBag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ebay/AuthenticateBag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ebay/ChangeCountrytoIndia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ebay/ChangeCountrytoIndia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ebay/EbayHomepage2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ebay/EbayHomepage2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ebay/EbaySell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ebay/EbaySell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ebay/MEnsFashionWatches.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ebay/MEnsFashionWatches.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ebay/OPenStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ebay/OPenStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ebay/ScrollUpArrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ebay/ScrollUpArrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utility/Webelements/EbayWebElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utility/Webelements/EbayWebElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ebay/GetAuthenticationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ebay/GetAuthenticationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ebay/HomeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ebay/HomeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ebay/MensFashionWatchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ebay/MensFashionWatchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ebay/ScrollUpArrowTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ebay/ScrollUpArrowTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +86,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EbayUploadSellTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TeamA-TDD-Framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ebay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Ebay" />
+      <option name="MAIN_CLASS_NAME" value="Ebay.EbayUploadSellTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HomeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TeamA-TDD-Framework" />
       <extension name="coverage">
@@ -138,24 +155,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScrolUprrowTest.country_change_test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TeamA-TDD-Framework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ebay.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Ebay.NicholasEbayTester" />
-      <option name="MAIN_CLASS_NAME" value="Ebay.NicholasEbayTester.ScrolUprrowTest" />
-      <option name="METHOD_NAME" value="country_change_test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="/Users/nicholassahota/Desktop/GroupA-main/TeamA-TDD-Framework/src/test/resources/EbayTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TeamA-TDD-Framework" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/EbayTest.xml" />
@@ -169,10 +168,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/nicholassahota/Desktop/GroupA-main/TeamA-TDD-Framework/src/test/resources/EbayTest.xml" />
+        <item itemvalue="TestNG.EbayUploadSellTest" />
         <item itemvalue="TestNG.HomeTest" />
         <item itemvalue="TestNG.ScrolUprrowTest" />
         <item itemvalue="TestNG.ScrolUprrowTest.SCROLL_UP_THE_ARROW" />
-        <item itemvalue="TestNG.ScrolUprrowTest.country_change_test" />
       </list>
     </recent_temporary>
   </component>

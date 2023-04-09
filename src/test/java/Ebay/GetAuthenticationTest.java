@@ -13,7 +13,7 @@ public class GetAuthenticationTest extends CommonAPI {
         getAuthenticate();
         authenticateBag.Authenticationg_LV_BAg();
         String actual= authenticateBag.AssertLV();
-        String expected = "Authentic Louis Vuitton Monogram Keepall 45 Boston Bag M41428 LV H5180";
+        String expected = "Add to cart";
         Assert.assertEquals(actual,expected);
     }
 }

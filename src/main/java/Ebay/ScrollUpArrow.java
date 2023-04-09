@@ -12,15 +12,22 @@ import java.time.Duration;
 import static utility.Webelements.EbayWebElements.*;
 
 public class ScrollUpArrow extends CommonAPI {
+    //calling the webelements from EbayWebElements
     @FindBy (how = How.XPATH, using = scrollupArrow) public WebElement ScrollUP;
     @FindBy (how = How.XPATH, using = EbayHomePAgeEBAY) public WebElement searchPAge;
+
+    // All the steps to add Webelements
     public void scrolling() {
         scrollUpDownByHeight();WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.elementToBeClickable(ScrollUP));}
     public void waitForthis(){waitUntilClickAble(ScrollUP);}
     public String verification(){return searchPAge.getText();}
- //  public void clickArrow(){ScrollUP.click();}
    public void waitfotit(){waitUntilVisible(searchPAge);}
+
+
+    // This is a test case for scrolling all the wy up from bottom of the homepage using up aroow button .
+
+
     public void UPARROW() throws InterruptedException {
         scrolling();
         Thread.sleep(300);
